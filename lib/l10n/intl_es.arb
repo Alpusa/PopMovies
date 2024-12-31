@@ -1,0 +1,13 @@
+{
+  "app_name": "PopMovies",
+  "popular_label": "Popular",
+  "favorite_label": "Favorito",
+  "no_movies": "No hay películas",
+  "release_date": "Fecha de lanzamiento",
+  "vote_average": "Promedio de votos",
+  "rating": "Calificación",
+  "add_to_favorites": "Agregar a favoritos",
+  "remove_from_favorites": "Eliminar de favoritos",
+  "error_loading_image": "Error al cargar la imagen",
+  "no_image_loaded": "No se cargó ninguna imagen"
+}

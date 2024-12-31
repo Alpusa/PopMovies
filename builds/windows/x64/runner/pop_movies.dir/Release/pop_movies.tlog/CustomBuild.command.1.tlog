@@ -1,0 +1,10 @@
+^E:\JAKS_LAB_LOCAL\POP_MOVIES\WINDOWS\RUNNER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SE:/Jaks_Lab_Local/pop_movies/windows -BE:/Jaks_Lab_Local/pop_movies/build/windows/x64 --check-stamp-file E:/Jaks_Lab_Local/pop_movies/build/windows/x64/runner/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
